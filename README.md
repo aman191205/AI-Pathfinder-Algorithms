@@ -57,6 +57,23 @@ If needed, install Python 3.12 from:
 [https://www.python.org/downloads/release/python-3120/](https://www.python.org/downloads/release/python-3120/)
 
 
+## Install Dependencies and run the project
+
+**Install Pygame using Python 3.12:**
+
+```bash
+py -3.12 -m pip install pygame
+```
+
+**Verify installation:**
+```bash
+py -3.12 -m pip show pygame
+```
+
+**Run the project using Python 3.12:**
+```bash
+py -3.12 "c:/Users/aman1/OneDrive/Documents/python codes/ai_ass1.py"
+```
 ## How It Works
 
 1. Generate the grid.  
@@ -64,16 +81,3 @@ If needed, install Python 3.12 from:
 3. Select a Target (`T`) node.  
 4. Add walls/obstacles.  
 5. Choose an algorithm. Watch the visualization as the algorithm finds the path.
-
-## Install Dependencies and run the project
-
-```bash
-#Install Pygame using Python 3.12:
-py -3.12 -m pip install pygame
-
-#Verify installation:
-py -3.12 -m pip show pygame
-
-#Run the project using Python 3.12:
-py -3.12 "c:/Users/aman1/OneDrive/Documents/python codes/ai_ass1.py"
-
