@@ -1,1 +1,2 @@
-pygame
+1.pygame
+2. python ver 3.12.x
