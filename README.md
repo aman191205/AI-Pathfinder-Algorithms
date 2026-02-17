@@ -47,9 +47,9 @@ Pygame may not work properly with **Python 3.14**, so make sure you are using Py
 
 You can check your Python version with:
 
-````bash````
+```bash```
 py --version
-```` ````
+
 ## Install Python 3.12
 
 If needed, install Python 3.12 from:  
@@ -61,19 +61,19 @@ Install Pygame using Python 3.12:
 
 ````bash````
 py -3.12 -m pip install pygame
-```` ````
+
 Verify installation:
 
 ````bash````
 py -3.12 -m pip show pygame
-```` ````
+
 **Running the Project**
 
 Run the project using Python 3.12:
 
-````bash````
+```bash```
 py -3.12 "c:/Users/aman1/OneDrive/Documents/python codes/ai_ass1.py"
-```` ````
+
 ## How It Works
 
 1. Generate the grid.  
