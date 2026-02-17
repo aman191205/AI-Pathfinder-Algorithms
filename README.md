@@ -76,7 +76,7 @@ Run the project using Python 3.12:
 ```bash
 py -3.12 "c:/Users/aman1/OneDrive/Documents/python codes/ai_ass1.py"
 
-**How It Works**
+## How It Works
 
 1. Generate the grid.  
 2. Select a Start (`S`) node.  
