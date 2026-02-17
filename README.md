@@ -1,89 +1,85 @@
-AI Pathfinder – Uninformed Search Visualization
-Description
+# AI Pathfinder – Uninformed Search Visualization
 
-This project is a visual AI Pathfinder built using Python and Pygame.
-It demonstrates how different uninformed search algorithms explore a grid to find a path from a Start (S) point to a Target (T) point while avoiding walls.
+## Overview
 
-Implemented Algorithms:
+AI Pathfinder is a visual pathfinding project built using **Python** and **Pygame**.  
+It demonstrates how different uninformed search algorithms explore a grid to find a path from a **Start (S)** node to a **Target (T)** node while avoiding obstacles.
 
-Breadth-First Search (BFS)
+This project visually shows how each algorithm expands nodes, manages its frontier, and determines the final path.
 
-Depth-First Search (DFS)
+---
 
-Uniform-Cost Search (UCS)
+## Implemented Algorithms
 
-Depth-Limited Search (DLS)
+- **Breadth-First Search (BFS)**
+- **Depth-First Search (DFS)**
+- **Uniform-Cost Search (UCS)**
+- **Depth-Limited Search (DLS)**
+- **Iterative Deepening Depth-First Search (IDDFS)**
+- **Bidirectional Search**
 
-Iterative Deepening DFS (IDDFS)
+---
 
-Bidirectional Search
+## Features
 
-The visualization shows:
+- Visualization of frontier nodes  
+- Visualization of explored nodes  
+- Final path highlighting  
+- Start and target node selection  
+- Wall/obstacle placement  
 
-Frontier nodes
+---
 
-Explored nodes
+## Technologies Used
 
-Final path
+- **Python 3.12**
+- **Pygame**
 
-Step count and statistics
+---
 
-Requirements
+## Installation and Setup
 
-Python 3.12 (IMPORTANT: Pygame does not work properly on Python 3.14)
+### Important Python Version Note
 
-Pygame
+This project requires **Python 3.12**.
 
-Installation Instructions
-1. Install Python 3.12
+Pygame may not work properly with **Python 3.14**, so make sure you are using Python 3.12 before installing dependencies.
 
-Download Python 3.12 from:
-https://www.python.org/downloads/
+You can check your Python version with:
 
-Make sure to check:
-"Add Python to PATH"
+```bash
+py --version
+
+# AI Pathfinding Project
+
+## Install Python 3.12
+
+If needed, install Python 3.12 from:  
+[https://www.python.org/downloads/release/python-3120/](https://www.python.org/downloads/release/python-3120/)
+
+## Install Dependencies
+
+Install Pygame using Python 3.12:
+
+```bash
+py -3.12 -m pip install pygame
 
 Verify installation:
 
-python --version
+```bash
+py -3.12 -m pip show pygame
 
-It should show Python 3.12.x
+**Running the Project**
 
-2. Install Dependencies
+Run the project using Python 3.12:
 
-Open Command Prompt inside the project folder and run:
+```bash
+py -3.12 "c:/Users/aman1/OneDrive/Documents/python codes/ai_ass1.py"
 
-pip install -r requirements.txt
+**How It Works**
 
-This will install:
-pygame
-
-How to Run
-
-Navigate to the project folder:
-
-cd AI-Pathfinder
-
-Run the program:
-
-python pathfinder_algo.py
-
-The game window will open.
-
-Controls
-
-Press 1–6 to select algorithm
-
-S = Set Start
-
-T = Set Target
-
-SPACE = Run algorithm
-
-C = Clear search
-
-R = Reset grid
-
-Drag mouse = Create walls
-
-ESC = Exit
+1. Generate the grid.  
+2. Select a Start (`S`) node.  
+3. Select a Target (`T`) node.  
+4. Add walls/obstacles.  
+5. Choose an algorithm. Watch the visualization as the algorithm finds the path.
